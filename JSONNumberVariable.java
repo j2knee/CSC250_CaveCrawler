@@ -9,6 +9,12 @@ public class JSONNumberVariable extends JSONVariable
 		this.value = value;
 	}
 
+	
+	public int getValue() {
+		return value;
+	}
+
+
 	@Override
 	void display() 
 	{
@@ -20,4 +26,5 @@ public class JSONNumberVariable extends JSONVariable
 	{
 		return "\"" + this.name + "\":" + this.value;
 	}
+
 }
